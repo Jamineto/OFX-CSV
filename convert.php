@@ -2,7 +2,7 @@
 include 'functions.php';
 
 //Diretorios
-$target_dir = __DIR__ . '/arquivos/';
+$target_dir = __DIR__ . '/files/';
 $down_dir   = __DIR__ . '/downloads/';
 
 $dir = '/zips/arquivoUsuariox/';
@@ -63,7 +63,7 @@ if ($uploadOk == 0) {
                 "DATA"=>"OFXSGML",
                 "VERSION"=>102,
                 "SECURITY"=>"NONE",
-                "ENCODING"=>"USASCII",
+                "ENCODING"=>"UTF-8",
                 "CHARSET"=>1252,
                 "COMPRESSION"=>"NONE",
                 "OLDFILEUID"=>"NONE",
@@ -74,20 +74,15 @@ if ($uploadOk == 0) {
 
         while(!feof($source)) {
 
-            //Pula linha ate comecar as informacoes
             $line = trim(fgets($source));
-            if ($line === '') {
-                continue;
-            }
-            
-            //Fecha tags
+
             if($line[0] == '<')
             {
                 $line = iconv($charsets[$headers['CHARSET']], 'UTF-8', $line);
-                if (substr($line, -1, 1) !== '>') {
+                if (substr($line, -1, 1) !== '>')
+                {
                     list($tag) = explode('>', $line, 2);
                     $line .= '</' . substr($tag, 1) . '>';
-                    
                 }
                 
                 $buffer .= $line ."\n";

@@ -1,0 +1,27 @@
+"Data Server";20180430120030[-3:BRT]
+Banco;Gerencianet
+"Identificação Banco";gnt
+Conta;1459950-11
+"Tipo de Conta";CHECKING
+"Data Inicio";20180130120000[-3:BRT]
+"Data Fim";20180429120000[-3:BRT]
+TIPO;DATA;VALOR;DESCRIÇÃO
+CREDIT;20180309120000[-3:BRT];74,40;"Repasse pagamento: 17223405 de Jorge Teixeira"
+DEBIT;20180309120000[-3:BRT];-3,34;"Tarifa repasse: 17223405 de Jorge Teixeira"
+CREDIT;20180320120000[-3:BRT];74,40;"Repasse pagamento: 22612776 de Paulo Jorge Alves"
+DEBIT;20180320120000[-3:BRT];-3,34;"Tarifa repasse: 22612776 de Paulo Jorge Alves"
+CREDIT;20180330120000[-3:BRT];74,40;"Repasse pagamento: 28015595 de Fulano Aguiar"
+DEBIT;20180330120000[-3:BRT];-3,34;"Tarifa repasse: 28015595 de Fulano Aguiar"
+CREDIT;20180406120000[-3:BRT];65,10;"Repasse pagamento: 28108174 de Ciclano da Silva"
+DEBIT;20180406120000[-3:BRT];-3,34;"Tarifa repasse: 28108174 de Ciclano da Silva"
+CREDIT;20180416120000[-3:BRT];74,40;"Repasse pagamento: 29384993 de Jorge Amado"
+DEBIT;20180416120000[-3:BRT];-3,34;"Tarifa repasse: 29384993 de Jorge Amado"
+CREDIT;20180417120000[-3:BRT];55,80;"Repasse pagamento: 29447637 de Pedro Jorge"
+DEBIT;20180417120000[-3:BRT];-3,34;"Tarifa repasse: 29447637 de Pedro Jorge"
+CREDIT;20180428120000[-3:BRT];120,90;"Repasse pagamento: 29517140 de Beltrano Diniz"
+DEBIT;20180428120000[-3:BRT];-7,23;"Tarifa repasse: 29517140 de Beltrano Diniz"
+CREDIT;20180429120000[-3:BRT];55,80;"Repasse pagamento: 29533821 de Henrique Almeida"
+DEBIT;20180429120000[-3:BRT];-3,49;"Tarifa repasse: 29533821 de Henrique Almeida"
+CREDIT;20180429120000[-3:BRT];74,40;"Repasse pagamento: 30830691 de Duque Alves"
+DEBIT;20180429120000[-3:BRT];-3,34;"Tarifa repasse: 30830691 de Duque Alves"
+Saldo;635,50
